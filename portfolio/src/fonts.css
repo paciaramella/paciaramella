@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Khand';
+    src: url('./fonts/Khand-Bold.ttf') format('woff'),
+         url('./fonts/Khand-SemiBold.ttf') format('woff'),
+         url('./fonts/Khand-Regular.ttf') format('woff'),
+         url('./fonts/Khand-Light.ttf') format('woff'),
+         url('./fonts/Khand-Medium.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

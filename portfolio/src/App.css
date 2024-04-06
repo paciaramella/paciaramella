@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -15,16 +16,15 @@
     animation: pulse 5s infinite;
   }
 }
-
+  
 .App-header {
-  background-color: #282c34;
-  min-height: 75vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #2A2438;
+  min-height: 100vh;
+  font-size: calc(80px + 2vmin);
+  color: #A5A6F6;
+  font-family: 'Khand-Bold';
+  padding: 65px;
+  padding-top: 160px;
 }
 .App-link {
   color: #61dafb;
