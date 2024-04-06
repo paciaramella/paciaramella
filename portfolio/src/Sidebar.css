@@ -1,0 +1,8 @@
+.sidebar {
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px; /* 20px gap between flex items */
+}

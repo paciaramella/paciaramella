@@ -1,0 +1,1 @@
+export const LINKED_IN = 'https://www.linkedin.com/in/parker-ciaramella-295106191/';

@@ -1,22 +1,20 @@
-import logo from './logo.svg';
+import choppa from './choppa.svg';
 import './App.css';
+import Sidebar from './Sidebar'; // Import your Sidebar component
 
 function App() {
   return (
     <div className="App">
+       <link href="./output.css" rel="stylesheet"></link>
+      <Sidebar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={choppa} className="pulse" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi, I'm Parker.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          Let's learn a little bit.
+        </p>
       </header>
     </div>
   );
