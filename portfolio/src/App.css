@@ -30,6 +30,14 @@
   color: #61dafb;
 }
 
+.App-thick-div {
+  font-size: calc(10px + 2vmin);
+  width: 500px;
+  height: 500px;
+  background-color: #2A2438;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* This adds a 10px "thickness" */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
