@@ -23,6 +23,13 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+  margin: 0;
+  font-family: 'Khand', 'Khand-Regular', 'Khand-Regular', 'Khand-SemiBold', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 h2 {
   margin: 0;
   font-family: 'Khand', 'Khand-Regular', 'Khand-Regular', 'Khand-SemiBold', sans-serif;
