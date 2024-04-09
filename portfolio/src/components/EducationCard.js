@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Card, CardContent, CardActions, Button, Typography } from '@mui/material';
+import React from "react";
+import { Card, CardContent, Typography } from '@mui/material';
 import '../styles/EducationCard.css';  
 import '../App.css';
 
@@ -8,7 +8,7 @@ function EducationCard(props) {
     const right = content?.right;
 
     return (
-     <Card className="flip-card" sx={right ? {  marginLeft: '130px'} : {} }>
+     <Card className="flip-card">
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <CardContent>
@@ -20,7 +20,7 @@ function EducationCard(props) {
           <div className="flip-card-back">
             <CardContent>
               <Typography variant="h5" component="div">
-                <p>{content.backText}</p>
+                <p style={{fontSize: 15}}>{content.backText}</p>
               </Typography>
             </CardContent>
           </div>

@@ -6,16 +6,15 @@ import github from './svgs/Github-Logo.svg';
 import security_camera from './svgs/camera-lol.svg';
 import gmail from './svgs/mail-purple.svg'
 import { LINKED_IN, GITHUB, GMAIL } from './links';
-
-function openLinkInNewTab(url) {
-  window.open(url, '_blank');
-};
-
+import dot from './svgs/dot.svg';
 function Sidebar() {
     return (
       <div className="flex-container">
         <img src={security_camera} alt="logo" style={{marginBottom: 'auto'}}/>
         <h2 className='title-icon'>paciaramella</h2>
+        {/* <p className='menu-icon' style={{paddingLeft: '32px', marginTop: '8px'}}>
+            <img src={dot} alt="logo"/>
+        </p> */}
         <a href={GMAIL} className='menu-icon' style={{ paddingLeft: '742px' }}>
             <img src={gmail} alt="logo"/>
         </a>

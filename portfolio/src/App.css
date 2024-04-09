@@ -1,6 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
+  animation: fadeIn 2.5s ease-in-out;
 }
 
 .App-logo {
@@ -8,12 +9,12 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  .pulse {
-    animation: pulse 5s infinite;
+  to {
+    opacity: 1;
   }
 }
 
@@ -29,12 +30,12 @@
   
 .App-header {
   background-color: #2A2438;
-  min-height: 79vh;
+  min-height: 79h;
   font-size: calc(80px + 2vmin);
   color: #A5A6F6;
   font-family: 'Khand-Bold';
   padding: 65px;
-  padding-top: 65px;
+  padding-top: 16px;
 }
 .App-link {
   color: #61dafb;
@@ -44,9 +45,9 @@
   animation: slideIn 2s ease-out;
   font-family: 'Khand-Regular';
   padding: 8px;
-  font-size: calc(10px + 2vmin);
-  width: 500px;
-  height: 500px;
+  font-size: 24px;
+  width: 450px;
+  height: 450px;
   background-color: #2A2438;
   border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* This adds a 10px "thickness" */

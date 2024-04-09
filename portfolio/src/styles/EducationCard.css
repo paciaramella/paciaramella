@@ -1,12 +1,32 @@
+  @keyframes slideInCard {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .cards-animation {
+    animation: slideInCard 2s ease-out;
+  }
+
   .flip-card {
     border-radius: 8px;
-    width: 125px;
-    height: 125px;
-    perspective: 1000px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* This adds a 10px "thickness" */
+    width: 250px;
+    height: 250px;
+    margin-bottom: 8px;
+    min-height: 125px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-items: center;
+    align-items: center;
   }
   
   .flip-card-inner {
+    display: flex;
+    justify-items: center;
+    align-items: center;
     width: 100%;
     height: 100%;
     transition: transform 1s;
@@ -30,8 +50,9 @@
   }
   
   .flip-card-front {
-    align-items: center;
+    display: flex;
     justify-items: center;
+    align-items: center;
   }
   
   .flip-card-back {
