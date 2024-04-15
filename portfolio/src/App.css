@@ -54,6 +54,27 @@
   position: absolute;
   left: 95%;
   top: 35%;
+  margin-right: 16px;
+}
+
+.exp-tab {
+  display: flex;
+  flex-direction: row;
+  color: #F0F3FA;
+}
+.exp-desc {
+  color: #F0F3FA;
+  width: 60vh;
+  margin: 24px;
+}
+
+.exp-section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 58%;
+  top: 35%;
+  color: #F0F3FA;
 }
 
 .Body-name {
