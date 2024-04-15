@@ -8,3 +8,24 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Khand-Bold';
+    src: url('./fonts/Khand-Bold.ttf') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Khand-Regular';
+    src: url('./fonts/Khand-Regular.ttf') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Khand-Light';
+    src: url('./fonts/Khand-Light.ttf') format('woff');
+    font-weight: 50;
+    font-style: normal;
+}

@@ -1,16 +1,14 @@
 import './App.css';
 import './fonts.css';
-import Sidebar from './Sidebar';
-import Footer from './components/Footer';
 import Body from './components/Body';
+import './output.css';
 
-function App() {
+function App() {  
   return (
-    <div className="App">
-       <link href="./output.css" rel="stylesheet"></link>
-      <Sidebar />
+    <div className='App'>
+      {/* <Sidebar /> */}
       <Body />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

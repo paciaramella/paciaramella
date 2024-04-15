@@ -4,11 +4,6 @@
   animation: fadeIn 2.5s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -27,30 +22,99 @@
   }
 }
 
-  
-.App-header {
-  background-color: #2A2438;
-  min-height: 79h;
-  font-size: calc(80px + 2vmin);
-  color: #A5A6F6;
-  font-family: 'Khand-Bold';
-  padding: 65px;
-  padding-top: 16px;
-}
-.App-link {
-  color: #61dafb;
+
+.App-body {
+  background-color: #0E1514;
+  height: 100vh;
 }
 
-.App-thick-div {
-  animation: slideIn 2s ease-out;
-  font-family: 'Khand-Regular';
-  padding: 8px;
-  font-size: 24px;
-  width: 450px;
-  height: 450px;
-  background-color: #2A2438;
+.about {
+  width: 80vh;
+  height: 95vh;
+  margin-left: 32px;
+  margin-top: 32px;
+  background-color: #1D2824;
+  position: absolute;
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* This adds a 10px "thickness" */
+}
+
+.bio-div {
+  width: 60vh;
+  height: 20vh;
+}
+
+.links {
+  position: absolute;
+  top: 91%;
+  margin-left: 32px;
+}
+
+.vertical-carousel {
+  background-color: #0E1514;
+  position: absolute;
+  left: 95%;
+  top: 35%;
+}
+
+.Body-name {
+  position: absolute;
+  color: #F0F3FA;
+  padding: 64px
+}
+
+.Body-welcome {
+  width: 350px;
+  height: 75px;
+  background-color: #2A2828;
+  color: #F0F3FA;
+  outline: 2px solid black; /* Sets the outline to be a solid black line with a width of 2px */
+  padding: 8px; /* Adds some padding to make the outline visible */
+  border-radius: 16px;
+  position: absolute; /* Position the component relative to the nearest positioned ancestor */
+  top: 25%; /* Align the top of the component to the vertical center of the screen */
+  left: 50%; /* Align the left side of the component to the horizontal center of the screen */
+  transform: translate(-50%, -50%);
+}
+
+.Body-linkedin,
+.Body-github,
+.Body-about,
+.Body-gmail {
+  width: 250px;
+  height: 65px;
+  background-color: #2A2828;
+  color: #F0F3FA;
+  outline: 2px solid black; 
+  padding: 8px;
+  border-radius: 16px;
+  position: absolute; 
+}
+
+.Body-button {
+  color: #F0F3FA;
+}
+.Body-about {
+  top: 40%;
+  left: 50%; 
+}
+
+.Body-linkedin {
+  display: flex;
+  top: 50%; 
+  left: 50%; 
+}
+
+
+.Body-github {  
+  display: flex;
+  top: 60%; /* Align the top of the component to the vertical center of the screen */
+  left: 50%; /* Align the left side of the component to the horizontal center of the screen */
+}
+
+.Body-gmail {
+  display: flex;
+  top: 70%; /* Align the top of the component to the vertical center of the screen */
+  left: 50%; /* Align the left side of the component to the horizontal center of the screen */
 }
 
 @keyframes App-logo-spin {
