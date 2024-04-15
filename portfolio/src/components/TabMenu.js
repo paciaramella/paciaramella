@@ -3,6 +3,8 @@ import "../App.css";
 import { Tabs, Tab } from "@mui/material";
 import { lighten } from "polished";
 import ExperienceTab from "./ExperienceTab";
+import SkillsTab from "./SkillsTab";
+import Projects from "./Projects";
 
 const TabMenu = () => {
   const [selTab, setSelTab] = useState(0);
@@ -11,7 +13,7 @@ const TabMenu = () => {
     setSelTab(newTab);
   };
 
-  const labels = ["Experience", "Skills", "Interests"];
+  const labels = ["Experience", "Skills", "Projects"];
   const brighterColor = lighten(0.1, "#1D2824"); // Increase the lightness by 10%
 
   return (
@@ -53,8 +55,8 @@ const TabMenu = () => {
       <div style={{ marginTop: "20px" }}>
         {/* Content for each tab */}
         {selTab === 0 && <ExperienceTab />}
-        {selTab === 1 && <div></div>}
-        {selTab === 2 && <div></div>}
+        {selTab === 1 && <SkillsTab />}
+        {selTab === 2 && <Projects />}
       </div>
     </>
   );

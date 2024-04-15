@@ -77,6 +77,49 @@
   color: #F0F3FA;
 }
 
+.skill-section {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  left: 53%;
+  top: 35%;
+}
+
+@keyframes drawLine {
+  from {
+    width: 0; /* Start with a width of 0 */
+  }
+  to {
+    width: 100; /* End with full width */
+  }
+}
+
+.full-line {
+  display: flex;
+  flex-direction: row;
+}
+
+line {
+  position: relative;
+  overflow: hidden;
+}
+
+.line {
+  background-color: #FFA500;
+  height: 5px; /* Set the height of the line */
+  border-radius: 50px;
+  animation: drawLine 1s ease-in;
+}
+
+.projects-temp {
+  position:absolute;
+  top: 40%;
+  left: 60%;
+  color: #F0F3FA;
+  font-family: "Khand";
+  font-size: 64px;
+}
+
 .Body-name {
   position: absolute;
   color: #F0F3FA;
